@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  background-color: #a422f0;
+  z-index: 1;
+  color: white;
+}
+nav .navbar-collapse {
+  flex-grow: 0;
+}
+nav .navbar-collapse li a {
+  color: white !important;
+}
+nav p {
+  width: 130px;
+  padding: 5px;
+  margin-top: 7px;
+}
+
+.mask {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: auto;
+  padding: 30vh 30% 30vh 10%;
+  top: 0;
+}
+.mask h1 {
+  font-size: 70px;
+}
+.mask .btn {
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+  background-color: #a422f0;
+}
+
+.section1 .container .title {
+  padding: 5vh 20%;
+}
+.section1 .container .row .col .card {
+  border-radius: 10px;
+}
+.section1 .container .row .col .card:hover {
+  border: 1px solid blue;
+}
+
+.section1 .container .title {
+  padding: 5vh 20%;
+}
+.section1 .container .row .col .card .icon .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.section1 .container .row .col .card .icon .overlay i {
+  width: 20px;
+  height: 20px;
+  background-color: #a422f0;
+  padding: auto;
+}
+.section1 .container .row .col:hover .card .icon .overlay {
+  height: 20%;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
